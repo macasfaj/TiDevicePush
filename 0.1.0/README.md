@@ -1,5 +1,4 @@
-# Ti DevicePush Module [![gitTio](http://gitt.io/badge.svg)](http://gitt.io/component/) [![NPM](https://img.shields.io/npm/v/)](https://www.npmjs.com/package/)
-
+# Ti DevicePush Module 
 ## Description
 
 Titanium Appcelerator integration with DevicePush.com
