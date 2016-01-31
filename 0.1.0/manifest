@@ -1,0 +1,10 @@
+version: 0.1.0
+description: DevicePush.com push notifications for both iOS and Android into Titanium apps
+author: Miguel A. Castaño Fajardo <macasfaj@gmail.com> (http://about.me/macasfaj)
+license: MIT
+copyright: Copyright © 2016 Miguel Ángel Castaño Fajardo
+name: ti-devicepush
+moduleid: ti-devicepush
+guid: 7b5037bb-24b7-4aa1-aa8b-4dbd891b7591
+platform: commonjs
+minsdk: 3.2.0.GA
