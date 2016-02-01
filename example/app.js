@@ -98,7 +98,7 @@ else // Android init
 		
 	gcm.registerPush({
 		/* It's the same as your Googpe API project id */
-		senderId: '445095720054',
+		senderId: 'XXXXXX',
 		notificationSettings: {
 			sound: 'default',
 			largeIcon: 'appicon.png',  
@@ -132,8 +132,8 @@ else // Android init
 function deviceTokenSuccess(e){
 	Ti.API.info('[TiDeviceToken] Device Token:', e.deviceToken);
     Alloy.Globals.devicePush.register({
-      							idApplication: 'ef98-3fff-309b-a8a8',
-      							idUser: '56a25ebac0a2b44b747fe6fd',
+      							idApplication: 'XXXXXXX',
+      							idUser: 'XXXXXX',
       							token: e.deviceToken,
       							platformDP: OS_IOS ? 'iOS' : 'Android'
     }, onSuccess, onError);
