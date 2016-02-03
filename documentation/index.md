@@ -8,14 +8,14 @@ Ti-Device Push module allows register and receive Push Notifications from www.de
 
 **Find the newest version in the dist folder**
 
-## Referencing the module in your Ti mobile application 
+## Referencing the module in your Ti mobile application
 
 Simply add the following lines to your `tiapp.xml` file:
-
+```javascript
 <modules>
     <module platform="commonjs">ti-devicepush</module>
 </modules>
-
+```
 
 ## Reference
 
@@ -44,7 +44,7 @@ devicePush.register({
 
 ** Miguel A. Castaño**  
 web: http://www.devicepush.com  
-email: macasfaj@gmail.com 
+email: macasfaj@gmail.com
 twitter: @macasfaj  
 
 
